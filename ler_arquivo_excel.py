@@ -5,7 +5,7 @@ import hashlib
 
 try:
     # Lê o arquivo Excel
-    file_path = '/home/claudnei/Downloads/negociacao-2024-05-02-13-21-48.xlsx'
+    file_path = ''
     df = pd.read_excel(file_path)
 
     # Conecta ao banco de dados SQLite
